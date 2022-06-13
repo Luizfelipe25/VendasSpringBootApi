@@ -1,8 +1,8 @@
-package io.github.luizfelipe25.repository;
+package io.github.luizfelipe25.domain.repository;
 
 
-import io.github.luizfelipe25.domain.Cliente;
-import io.github.luizfelipe25.domain.Pedido;
+import io.github.luizfelipe25.domain.entity.Cliente;
+import io.github.luizfelipe25.domain.entity.Pedido;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

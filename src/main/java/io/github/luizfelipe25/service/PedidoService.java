@@ -1,6 +1,6 @@
 package io.github.luizfelipe25.service;
 
-import io.github.luizfelipe25.domain.Pedido;
+import io.github.luizfelipe25.domain.entity.Pedido;
 import io.github.luizfelipe25.domain.enums.StatusPedido;
 import io.github.luizfelipe25.rest.dto.PedidoDTO;
 

@@ -1,16 +1,16 @@
 package io.github.luizfelipe25.service.imp;
 
-import io.github.luizfelipe25.domain.Cliente;
-import io.github.luizfelipe25.domain.ItemPedido;
-import io.github.luizfelipe25.domain.Pedido;
-import io.github.luizfelipe25.domain.Produto;
+import io.github.luizfelipe25.domain.entity.Cliente;
+import io.github.luizfelipe25.domain.entity.ItemPedido;
+import io.github.luizfelipe25.domain.entity.Pedido;
+import io.github.luizfelipe25.domain.entity.Produto;
 import io.github.luizfelipe25.domain.enums.StatusPedido;
 import io.github.luizfelipe25.exception.PedidoNaoEncontradoException;
 import io.github.luizfelipe25.exception.RegraNegocioException;
-import io.github.luizfelipe25.repository.Clientes;
-import io.github.luizfelipe25.repository.ItensPedido;
-import io.github.luizfelipe25.repository.Pedidos;
-import io.github.luizfelipe25.repository.Produtos;
+import io.github.luizfelipe25.domain.repository.Clientes;
+import io.github.luizfelipe25.domain.repository.ItensPedido;
+import io.github.luizfelipe25.domain.repository.Pedidos;
+import io.github.luizfelipe25.domain.repository.Produtos;
 import io.github.luizfelipe25.rest.dto.ItemPedidoDTO;
 import io.github.luizfelipe25.rest.dto.PedidoDTO;
 import io.github.luizfelipe25.service.PedidoService;

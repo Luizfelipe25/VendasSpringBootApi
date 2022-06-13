@@ -1,4 +1,4 @@
-package io.github.luizfelipe25.domain;
+package io.github.luizfelipe25.domain.entity;
 
 
 import lombok.AllArgsConstructor;

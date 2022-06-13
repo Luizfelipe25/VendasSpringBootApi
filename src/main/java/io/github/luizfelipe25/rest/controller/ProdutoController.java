@@ -1,8 +1,7 @@
 package io.github.luizfelipe25.rest.controller;
 
-import io.github.luizfelipe25.domain.Cliente;
-import io.github.luizfelipe25.domain.Produto;
-import io.github.luizfelipe25.repository.Produtos;
+import io.github.luizfelipe25.domain.entity.Produto;
+import io.github.luizfelipe25.domain.repository.Produtos;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.http.HttpStatus;

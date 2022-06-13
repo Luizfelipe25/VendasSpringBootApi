@@ -1,7 +1,7 @@
 package io.github.luizfelipe25.rest.controller;
 
-import io.github.luizfelipe25.domain.ItemPedido;
-import io.github.luizfelipe25.domain.Pedido;
+import io.github.luizfelipe25.domain.entity.ItemPedido;
+import io.github.luizfelipe25.domain.entity.Pedido;
 import io.github.luizfelipe25.domain.enums.StatusPedido;
 import io.github.luizfelipe25.rest.dto.AtualizacaoStatusPedidoDTO;
 import io.github.luizfelipe25.rest.dto.InformacaoItemPedidoDTO;

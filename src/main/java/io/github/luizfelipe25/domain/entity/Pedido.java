@@ -1,8 +1,7 @@
-package io.github.luizfelipe25.domain;
+package io.github.luizfelipe25.domain.entity;
 
 
 import io.github.luizfelipe25.domain.enums.StatusPedido;
-import io.github.luizfelipe25.validation.NotEmptyList;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
