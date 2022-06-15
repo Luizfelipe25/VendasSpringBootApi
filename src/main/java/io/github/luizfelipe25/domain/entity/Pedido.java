@@ -19,7 +19,7 @@ import java.util.List;
 @Table(name = "pedido")
 public class Pedido {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @ManyToOne
